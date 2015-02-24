@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="Header">
+        <Rectangle x:Name="___Header_" Fill="#FFC10000" HorizontalAlignment="Left" Height="69" Stroke="Black" VerticalAlignment="Top" Width="401" Margin="0,0,-1,0"/>
+
+        <Button x:Name="clickButton" HorizontalAlignment="Left" Margin="259,10,0,0" VerticalAlignment="Top" Click="clickButton_Click" Height="26" Width="26" Content="Add Party" Background="White" Foreground="Black" FontWeight="Bold" BorderThickness="5,2.5,2.5,5" BorderBrush="Black"/>
+        <TextBlock x:Name="textB" HorizontalAlignment="Left" Margin="108,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
+        <TextBlock x:Name="partiesTitle" HorizontalAlignment="Left" Height="59" Margin="105,15,0,0" TextWrapping="Wrap" Text="Parties" VerticalAlignment="Top" Width="149" FontSize="36" Foreground="Black" SelectionChanged="TextBlock_SelectionChanged" FontWeight="Bold"/>
+        <ListView x:Name="___Parties_" HorizontalAlignment="Left" Height="363" Margin="10,165,-1,0" VerticalAlignment="Top" Width="391">
+            <Button x:Name="___p1_" Content="Party1" Width="381" Background="#FFF9F4F4" Foreground="#FF9C0000"/>
+            <Button Content="Party2" Width="381" Foreground="#FF9C0000" Background="White"/>
+            <Button Content="Party3" Width="381" Background="White" Foreground="#FF9C0000"/>
+            <Button Content="Party4" Width="381" Background="White" Foreground="#FF9C0000"/>
+            <Button Content="Party5" Width="381" Foreground="#FF9C0000" Background="White"/>
+        </ListView>
+        <Button x:Name="___currentParty_" Content="Current: Party0" HorizontalAlignment="Left" Margin="0,59,0,0" VerticalAlignment="Top" Width="400" Background="White" Foreground="Black"/>
+        <TextBlock x:Name="otherParties" HorizontalAlignment="Left" Margin="10,122,0,0" TextWrapping="Wrap" Text="Nearby Parties:" VerticalAlignment="Top" Height="39" Width="380" FontSize="22"/>
+
+    </Grid>
+</Page>
