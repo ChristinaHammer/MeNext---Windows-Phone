@@ -54,5 +54,15 @@ namespace App1
         {
 
         }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void addParty_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/BlankPage1.xaml", UriKind.Relative));
+        }
     }
 }
