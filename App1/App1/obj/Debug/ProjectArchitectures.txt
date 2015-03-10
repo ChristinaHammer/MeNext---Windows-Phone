@@ -1,1 +1,1 @@
-C:\Users\Kit\Dropbox\MeNext 2015\App1\App1\App1.csproj;neutral
+C:\Users\Kit\Documents\MeNext---Windows-Phone\App1\App1\MeNextApp.csproj;neutral

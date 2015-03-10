@@ -15,7 +15,7 @@
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="640" Stroke="Black" VerticalAlignment="Top" Width="400" Margin="1,0,-1,0"/>
         <Rectangle x:Name="__Header_" Fill="#FFEB2735" HorizontalAlignment="Left" Height="69" Stroke="Black" VerticalAlignment="Top" Width="401" Margin="0,0,-1,0"/>
         <TextBlock HorizontalAlignment="Left" Margin="87,16,0,0" TextWrapping="Wrap" Text="    MeNext" VerticalAlignment="Top" Height="43" Width="197" FontSize="36" FontWeight="Bold" Foreground="Black" Visibility="Collapsed"/>
-        <TextBox x:Name="partyCode" HorizontalAlignment="Left" Margin="25,90,0,0" TextWrapping="Wrap" Text="Enter Party Code" VerticalAlignment="Top" Width="352" TextChanged="TextBox_TextChanged" Foreground="Gray"/>
+        <TextBox x:ConnectionId='1' x:Name="partyCode" HorizontalAlignment="Left" Margin="25,90,0,0" TextWrapping="Wrap" Text="Enter Party Code" VerticalAlignment="Top" Width="352"                                   Foreground="Gray"/>
         <Button x:Name="joinParty" Content="Join Party" HorizontalAlignment="Left" Margin="84,138,0,0" VerticalAlignment="Top" Width="200" Background="#FFA6A2A2" Foreground="Black"/>
         <Button Content="Capture QR code" HorizontalAlignment="Left" Margin="84,245,0,0" VerticalAlignment="Top" Width="199" Background="#FFA6A2A2" Foreground="Black"/>
         <TextBlock HorizontalAlignment="Left" Margin="172,213,0,0" TextWrapping="Wrap" Text="Or" VerticalAlignment="Top" Foreground="Black" FontSize="18" FontWeight="Bold"/>
@@ -26,3 +26,4 @@
 
     </Grid>
 </Page>
+

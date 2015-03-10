@@ -11,8 +11,7 @@
     <Grid x:Name="Header">
         <Rectangle Fill="White" HorizontalAlignment="Left" Height="640" Stroke="Black" VerticalAlignment="Top" Width="416" Margin="0,0,0,0"/>
 
-        <Rectangle x:Name="___Header_" Fill="#FFF52323" HorizontalAlignment="Left" Height="69" Stroke="Black" VerticalAlignment="Top" Width="401" Margin="0,0,-1,0"/>
-        <TextBlock x:Name="textB" HorizontalAlignment="Left" Margin="108,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
+        <Rectangle x:Name="___Header_" Fill="#FFEB2735" HorizontalAlignment="Left" Height="69" Stroke="Black" VerticalAlignment="Top" Width="401" Margin="0,0,-1,0"/>
         <ListView x:Name="___Parties_" HorizontalAlignment="Left" Height="516" Margin="0,124,0,0" VerticalAlignment="Top" Width="400">
             <ListView x:Name="___PartyList_" Height="516" Width="400" SelectionChanged="ListView_SelectionChanged">
                 <ListViewItem Content="Party1" Background="White" Foreground="#FF131212" FontSize="20" RenderTransformOrigin="0.496,0.475"/>
@@ -25,9 +24,11 @@
         <Rectangle Fill="#FF918A8A" HorizontalAlignment="Left" Height="55" Margin="0,69,-1,0" Stroke="Black" VerticalAlignment="Top" Width="401"/>
         <TextBlock x:Name="otherParties" Margin="65,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" FontSize="36" Foreground="White" HorizontalAlignment="Left" Width="325" Text="  Joined Parties:"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="184,20,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBlock HorizontalAlignment="Left" Margin="87,16,0,0" TextWrapping="Wrap" Text="    MeNext" VerticalAlignment="Top" Height="43" Width="197" FontSize="36" FontWeight="Bold" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Left" Margin="87,16,0,0" TextWrapping="Wrap" Text="    MeNext" VerticalAlignment="Top" Height="43" Width="197" FontSize="36" FontWeight="Bold" Foreground="Black" Visibility="Collapsed"/>
         <HyperlinkButton x:Name="addParty" Content="+" HorizontalAlignment="Left" Margin="337,13,0,0" VerticalAlignment="Top" Width="40" RenderTransformOrigin="-1.823,0.542" Height="47" Click="addParty_Click"/>
-        <Border BorderBrush="#FF7E0808" BorderThickness="4" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="400"/>
+        <Border BorderBrush="#FF7E0808" BorderThickness="4" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="400">
+            <Image HorizontalAlignment="Left" Height="43" Margin="102.833,11.833,0,0" VerticalAlignment="Top" Width="202" Source="Assets/menext horizontal logo.png"/>
+        </Border>
 
     </Grid>
 </Page>

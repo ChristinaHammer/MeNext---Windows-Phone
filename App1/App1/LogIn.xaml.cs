@@ -43,7 +43,7 @@ namespace App1
 
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
+            Frame.Navigate(typeof(MainPage));
         }
     }
 }

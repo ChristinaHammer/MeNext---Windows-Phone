@@ -15,7 +15,7 @@
         <TextBox x:Name="username" HorizontalAlignment="Left" Margin="49,120,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" Foreground="#FFA2A0A0" PlaceholderText="Username"/>
         <PasswordBox x:Name="password" HorizontalAlignment="Left" Height="29" Margin="49,181,0,0" VerticalAlignment="Top" Width="294" Foreground="#FF666363" PlaceholderText="Password"/>
         <Button Content="Login with Facebook" HorizontalAlignment="Left" Height="42" Margin="67,305,0,0" VerticalAlignment="Top" Width="262" Background="#FF1E2D70"/>
-        <HyperlinkButton x:Name="loginbutton" Content="Login" HorizontalAlignment="Left" Margin="127,236,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="Black" Width="134" Height="41" Background="#FFCBC9C9" FontWeight="Bold" FontSize="24" BorderBrush="#FFF52323"/>
+        <HyperlinkButton x:ConnectionId='1' x:Name="loginbutton" Content="Login" HorizontalAlignment="Left" Margin="127,236,0,0" VerticalAlignment="Top"                               Foreground="Black" Width="134" Height="41" Background="#FFCBC9C9" FontWeight="Bold" FontSize="24" BorderBrush="#FFF52323"/>
         <Border BorderBrush="#FF7E0808" BorderThickness="4" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="400"/>
         <Border BorderBrush="#FF494545" BorderThickness="2" HorizontalAlignment="Left" Height="41" Margin="127,236,0,0" VerticalAlignment="Top" Width="134"/>
         <PivotItem Header="PivotItem -1">
@@ -24,3 +24,4 @@
 
     </Grid>
 </Page>
+
