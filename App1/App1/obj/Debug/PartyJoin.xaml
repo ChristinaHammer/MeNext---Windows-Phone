@@ -16,12 +16,12 @@
         <Rectangle x:Name="__Header_" Fill="#FFEB2735" HorizontalAlignment="Left" Height="69" Stroke="Black" VerticalAlignment="Top" Width="401" Margin="0,0,-1,0"/>
         <TextBlock HorizontalAlignment="Left" Margin="87,16,0,0" TextWrapping="Wrap" Text="    MeNext" VerticalAlignment="Top" Height="43" Width="197" FontSize="36" FontWeight="Bold" Foreground="Black" Visibility="Collapsed"/>
         <TextBox x:ConnectionId='1' x:Name="partyCode" HorizontalAlignment="Left" Margin="25,90,0,0" TextWrapping="Wrap" Text="Enter Party Code" VerticalAlignment="Top" Width="352"                                   Foreground="Gray"/>
-        <Button x:Name="joinParty" Content="Join Party" HorizontalAlignment="Left" Margin="84,138,0,0" VerticalAlignment="Top" Width="200" Background="#FFA6A2A2" Foreground="Black"/>
+        <Button x:Name="joinParty" Content="Join Party" HorizontalAlignment="Left" Margin="84,141,0,0" VerticalAlignment="Top" Width="200" Background="#FFA6A2A2" Foreground="Black"/>
         <Button Content="Capture QR code" HorizontalAlignment="Left" Margin="84,245,0,0" VerticalAlignment="Top" Width="199" Background="#FFA6A2A2" Foreground="Black"/>
         <TextBlock HorizontalAlignment="Left" Margin="172,213,0,0" TextWrapping="Wrap" Text="Or" VerticalAlignment="Top" Foreground="Black" FontSize="18" FontWeight="Bold"/>
         <Image x:Name="MNLogo" HorizontalAlignment="Left" Height="85" Margin="112,391,0,0" VerticalAlignment="Top" Width="101" Source="C:\Users\Kit\Dropbox\MeNext2015\MeNext---Windows-Phone\App1\App1\Assets\40pt2x.png" RenderTransformOrigin="0.471,0.502" />
         <Border BorderBrush="#FF7E0808" BorderThickness="4" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="400">
-            <Image HorizontalAlignment="Left" Height="48" Margin="82.833,6.833,0,0" VerticalAlignment="Top" Width="203" Source="Assets/menext horizontal logo.png"/>
+            <Image HorizontalAlignment="Left" Height="48" Margin="78.833,6.833,0,0" VerticalAlignment="Top" Width="203" Source="Assets/menext horizontal logo.png"/>
         </Border>
 
     </Grid>

@@ -22,8 +22,6 @@
             <ListViewItem Content="       Whatever's hip with the kids" Height="100" FontSize="24" Foreground="Black"/>
             <ListViewItem Content="ListViewItem" Height="100"/>
         </ListView>
-        <Border BorderBrush="#FF7E0808" BorderThickness="4" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="400">
-            <Image HorizontalAlignment="Left" Height="43" Margin="20.833,11.833,0,0" VerticalAlignment="Top" Width="46" Source="Assets/Square71x71Logo.png"/>
-        </Border>
+        <Border BorderBrush="#FF7E0808" BorderThickness="4" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="400"/>
     </Grid>
 </Page>

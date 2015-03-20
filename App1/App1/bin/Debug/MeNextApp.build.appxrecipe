@@ -58,6 +58,9 @@
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kit\Documents\MeNext---Windows-Phone\App1\App1\Assets\nyan.jpg">
+      <PackagePath>Assets\nyan.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kit\Documents\MeNext---Windows-Phone\App1\App1\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>

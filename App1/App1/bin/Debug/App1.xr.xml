@@ -25,12 +25,13 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Text" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Visibility" />
+      <RootProperty Name="FontFamily" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
@@ -63,6 +64,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Child" />
+      <RootProperty Name="RenderTransformOrigin" />
     </RootType>
     <RootType FullName="App1.BlankPage3" />
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
