@@ -11,17 +11,15 @@
     <Grid>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="640" Stroke="Black" VerticalAlignment="Top" Width="400"/>
         <Rectangle x:Name="Header" Fill="#FFEB2735" HorizontalAlignment="Left" Height="69" Stroke="Black" VerticalAlignment="Top" Width="401" Margin="0,0,-1,0"/>
-        <TextBlock HorizontalAlignment="Left" Margin="87,16,0,0" TextWrapping="Wrap" Text="    MeNext" VerticalAlignment="Top" Height="43" Width="197" FontSize="36" FontWeight="Bold" Foreground="Black" Visibility="Collapsed"/>
+        <Image HorizontalAlignment="Left" Height="61" Margin="93,10,0,0" VerticalAlignment="Top" Width="168" Source="Assets/menext horizontal logo.png"/>
+        <Border BorderBrush="#FF7E0808" BorderThickness="4" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="400"/>
+        <!--<TextBlock HorizontalAlignment="Left" Margin="87,16,0,0" TextWrapping="Wrap" Text="    MeNext" VerticalAlignment="Top" Height="43" Width="197" FontSize="36" FontWeight="Bold" Foreground="Black" Visibility="Collapsed"/>-->
         <TextBox x:Name="username" HorizontalAlignment="Left" Margin="49,120,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" Foreground="#FFA2A0A0" PlaceholderText="Username"/>
         <PasswordBox x:Name="password" HorizontalAlignment="Left" Height="29" Margin="49,181,0,0" VerticalAlignment="Top" Width="294" Foreground="#FF666363" PlaceholderText="Password"/>
         <Button Content="Login with Facebook" HorizontalAlignment="Left" Height="42" Margin="67,305,0,0" VerticalAlignment="Top" Width="262" Background="#FF1E2D70"/>
         <HyperlinkButton x:ConnectionId='1' x:Name="loginbutton" Content="Login" HorizontalAlignment="Left" Margin="127,236,0,0" VerticalAlignment="Top"                               Foreground="Black" Width="134" Height="41" Background="#FFCBC9C9" FontWeight="Bold" FontSize="24" BorderBrush="#FFF52323"/>
-        <Border BorderBrush="#FF7E0808" BorderThickness="4" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="400"/>
         <Border BorderBrush="#FF494545" BorderThickness="2" HorizontalAlignment="Left" Height="41" Margin="127,236,0,0" VerticalAlignment="Top" Width="134"/>
-        <PivotItem Header="PivotItem -1">
-            <Image HorizontalAlignment="Left" Height="61" Margin="87,-12,0,0" VerticalAlignment="Top" Width="168" Source="Assets/menext horizontal logo.png"/>
-        </PivotItem>
-
+  
     </Grid>
 </Page>
 

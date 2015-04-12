@@ -14,11 +14,12 @@
         <Rectangle x:Name="___Header_" Fill="#FFEB2735" HorizontalAlignment="Left" Height="69" Stroke="Black" VerticalAlignment="Top" Width="401" Margin="0,0,-1,0"/>
         <ListView x:Name="___Parties_" HorizontalAlignment="Left" Height="516" Margin="0,124,0,0" VerticalAlignment="Top" Width="400">
             <ListView x:ConnectionId='2' x:Name="___PartyList_" Height="516" Width="400"                                             >
-                <ListViewItem Content="Party1" Background="White" Foreground="#FF131212" FontSize="20" RenderTransformOrigin="0.496,0.475"/>
-                <ListViewItem Content="Party2" Background="White" Foreground="#FF131212" FontSize="20" RenderTransformOrigin="0.496,0.475"/>
-                <ListViewItem Content="Party3" Background="White" Foreground="#FF131212" FontSize="20" RenderTransformOrigin="0.496,0.475"/>
-                <ListViewItem Content="Party4" Background="White" Foreground="#FF131212" FontSize="20" RenderTransformOrigin="0.496,0.475"/>
-                <ListViewItem Content="Party5" Background="White" Foreground="#FF131212" FontSize="20" RenderTransformOrigin="0.496,0.475"/>
+                <ListViewItem Content=" Party1" Background="White" Foreground="#FF131212" FontSize="20" RenderTransformOrigin="0.496,0.475"/>
+                <ListViewItem Content=" Party2" Background="White" Foreground="#FF131212" FontSize="20" RenderTransformOrigin="0.496,0.475"/>
+                <ListViewItem Content=" Party3" Background="White" Foreground="#FF131212" FontSize="20" RenderTransformOrigin="0.496,0.475"/>
+                <ListViewItem Content=" Party4" Background="White" Foreground="#FF131212" FontSize="20" RenderTransformOrigin="0.496,0.475"/>
+                <ListViewItem Content=" Party5" Background="White" Foreground="#FF131212" FontSize="20" RenderTransformOrigin="0.496,0.475"/>
+                <ListViewItem Content="  "/>
             </ListView>
         </ListView>
         <Rectangle Fill="#FF918A8A" HorizontalAlignment="Left" Height="55" Margin="-1,69,0,0" Stroke="Black" VerticalAlignment="Top" Width="401"/>

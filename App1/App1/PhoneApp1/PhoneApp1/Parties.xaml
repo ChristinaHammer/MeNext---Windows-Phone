@@ -1,0 +1,44 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
+    x:Class="PhoneApp1.Page1"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid x:Name="LayoutRoot" Background="#FFEB2735">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Kit Hammer" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="parties" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Foreground="Black"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock HorizontalAlignment="Left" Height="35" Margin="10,95,0,0" TextWrapping="Wrap" Text="joined Parties" VerticalAlignment="Top" Width="130"/>
+        </Grid>
+        <phone:LongListSelector HorizontalAlignment="Left" Height="463" VerticalAlignment="Top" Width="456" Margin="12,134,0,0" Grid.Row="1" Background="White" BorderBrush="#FF830909"/>
+        <TextBlock HorizontalAlignment="Left" Height="46" Margin="23,0,0,0" TextWrapping="Wrap" Text="current party" VerticalAlignment="Top" Width="425" Grid.Row="1"/>
+        <Button Content="Dick Squadron" HorizontalAlignment="Left" Height="76" Margin="0,24,0,0" Grid.Row="1" VerticalAlignment="Top" Width="480" Background="White" Foreground="Black" BorderBrush="White"/>
+        <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="597" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="460">
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="47" Margin="0,83,-4,0" VerticalAlignment="Top" Width="458"/>
+        </Border>
+
+
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

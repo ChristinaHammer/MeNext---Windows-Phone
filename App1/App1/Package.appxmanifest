@@ -22,6 +22,12 @@
     <Resource Language="x-generate"/>
   </Resources>
 
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+    <Protocol Name="msft-1b20558d8be046e580f6f8f781df5718" NavUriFragment="encodedLaunchUri=%s" TaskID="_default"/>
+  </Extension>
+  </Extensions>
+
   <Applications>
     <Application Id="App"
         Executable="$targetnametoken$.exe"

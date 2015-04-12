@@ -11,7 +11,7 @@
     <Grid>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="640" Stroke="Black" VerticalAlignment="Top" Width="400"/>
         <Rectangle x:Name="Header" Fill="#FFEB2735" HorizontalAlignment="Left" Height="69" Stroke="Black" VerticalAlignment="Top" Width="401" Margin="0,0,-1,0"/>
-        <TextBlock HorizontalAlignment="Left" Margin="135,10,0,0" TextWrapping="Wrap" Text="Party Name" VerticalAlignment="Top" Width="243" FontSize="24" FontWeight="Bold" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="104,24,0,0" TextWrapping="Wrap" Text="Party Name" VerticalAlignment="Top" Width="243" FontSize="24" FontWeight="Bold" Foreground="White"/>
         <TextBox HorizontalAlignment="Left" Height="32" Margin="26,119,0,0" TextWrapping="Wrap" Text="Search Youtube:" VerticalAlignment="Top" Width="352" Foreground="#FF6A6868"/>
         <Button Content="Go" HorizontalAlignment="Left" Height="32" Margin="121,161,0,0" VerticalAlignment="Top" Width="106" Background="#FF786C6C"/>
         <Border BorderBrush="#FF7E0808" BorderThickness="4" HorizontalAlignment="Left" Height="69" VerticalAlignment="Top" Width="400"/>
